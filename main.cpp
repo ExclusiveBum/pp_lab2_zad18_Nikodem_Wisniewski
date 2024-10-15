@@ -7,7 +7,7 @@ enum Month {January = 0, February = 1, March = 2, April = 3, May = 4, June = 5, 
 
 int main()
 {
-    int d, d0 = 15, fd = 5, m, m0 = 10, y, y0 = 1582, fy, answer;
+    int d, d0 = 15, fd = 5, m, m0 = 10, y, y0 = 1582, answer;
     printf("Input date after %d.%d.%d in format dd.mm.yyyy: ", d0, m0, y0);
     scanf("%d.%d.%d", &d, &m, &y);
     if (((d>d0 && m>=m0 && y>=y0) || (d<=d0 && m>m0 && y>=y0) || (d<=d0 && m<=m0 && y>y0) || (d>d0 && m<=m0 && y>y0)) && (d>0 && d<=31 && m>0 && m<=12 && y>=y0))

@@ -14,7 +14,7 @@ int main()
     {
         if (y>y0)
         {
-            for (int i=m0-1; i<12; i++) // pierwsze miesiące jeśli y>y0
+            for (int i=m0-1; i<12; i++)
             {
                 switch (i)
                 {
@@ -39,7 +39,7 @@ int main()
                     }
                 }
             }
-            for (int i=y0+1; i<y; i++) // wszystkie miesiące z wszytkich lat oprócz ostatniego
+            for (int i=y0+1; i<y; i++)
             {
                 if (i%4==0 && (i%100!=0 || i%400==0))
                 {
@@ -188,7 +188,7 @@ int main()
                     }
                 }
             }
-            int i = y; // zliczanie dni dla ostatniego roku
+            int i = y;
             if (i%4==0 && (i%100!=0 || i%400==0))
             {
                 for (int j=0; j<m; j++)

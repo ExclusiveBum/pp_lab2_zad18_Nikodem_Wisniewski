@@ -3,4 +3,4 @@ project(pp_lab2_zad18)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(pp_lab2_zad18 main.cpp)
+add_executable(pp_lab2_zad18_Nikodem_Wisniewski main.cpp)
